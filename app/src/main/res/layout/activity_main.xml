@@ -12,9 +12,10 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:text="Name"
+        android:text="FirstName"
         tools:layout_editor_absoluteX="112dp"
-        tools:layout_editor_absoluteY="186dp" />
+        tools:layout_editor_absoluteY="186dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextText2"
@@ -22,9 +23,10 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:text="Name"
+        android:text="LastName"
         tools:layout_editor_absoluteX="112dp"
-        tools:layout_editor_absoluteY="290dp" />
+        tools:layout_editor_absoluteY="290dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button"
@@ -32,7 +34,8 @@
         android:layout_height="wrap_content"
         android:text="Button"
         tools:layout_editor_absoluteX="170dp"
-        tools:layout_editor_absoluteY="513dp" />
+        tools:layout_editor_absoluteY="513dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextText3"
@@ -42,5 +45,6 @@
         android:inputType="text"
         android:text="Income"
         tools:layout_editor_absoluteX="112dp"
-        tools:layout_editor_absoluteY="401dp" />
+        tools:layout_editor_absoluteY="401dp"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
